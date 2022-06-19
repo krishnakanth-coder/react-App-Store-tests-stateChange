@@ -1,0 +1,52 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.app-page-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ace0f9;
+  width: 100vw;
+  min-height:100vh;
+  height: auto;
+  padding-bottom: 20px;
+}
+.app-page {
+  align-self: center;
+  display: flex;
+}
+.header {
+  align-self: center;
+}
+.search-container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+}
+.search-text {
+  background-color: #ace0f9;
+  outline: none;
+  border: none;
+  width: 50vw;
+}
+.search-icon {
+  height: 25px;
+  width: 25px;
+}
+.list-card {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 42px;
+}
+.app-card-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

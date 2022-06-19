@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.app-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 90px;
+  min-width: 90px;
+  height: 90px;
+}
+
+.app-image {
+  width: 40px;
+  height: 40px;
+}
+.app-name {
+  font-size: 10px;
+  flex-shrink: 1;
+}
